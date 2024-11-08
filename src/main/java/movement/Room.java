@@ -1,4 +1,9 @@
 package movement;
 
-public class Room {
+public abstract class Room {
+    public Room(String name) {
+
+    }
+    public abstract void enter();
+    public abstract boolean roomCompletion();
 }
